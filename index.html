@@ -1,6 +1,20 @@
 <!doctype html>
 <html lang="en" style="background: linear-gradient(to right, #434238, #302f27); ">
-    <body>
-        <h2>Crypto Idle</h2>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="./scripts/currencyCalc.js"></script>
+        <script type="text/javascript" src="./scripts/storeLoad.js"></script>
+    </head>
+    <body onload="firstLoad()">
+        <h1>Crypto Idle</h1>
+        <h2>Hello <h2 id="playername">name</h2></h2>
+        <div class="currency"> 
+            <table>
+                <tr>
+                    <td>Bitcoin</td>
+                    <td id="currentBitcoin">0</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
